@@ -1,0 +1,17 @@
+<h1 class="text-center py-5">Stupid Coaching</h1>
+
+<p class="text-center py-2">Ask your coaching anything:</p>
+
+
+<form class="text-center py-1 " action="/answer" data-turbo="false">
+
+  <div class="input-group d-inline-flex w-25">
+  <input type="text"
+  name="ask"
+  value= "<%= params[:ask] %>"
+  class="form-control w-25"
+  >
+  <input class="btn btn-primary" type="submit" value="Ask!">
+  </div>
+
+</form>
